@@ -1,0 +1,15 @@
+.wrap header {
+    flex: 60%;
+    color: #fef;
+
+}
+
+.wrap header h1 {
+    letter-spacing: 3px;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+.header-wrap {
+    background: linear-gradient(45deg, #33d, #344);
+}

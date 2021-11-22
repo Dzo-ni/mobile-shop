@@ -1,0 +1,33 @@
+.model_information_dasboard {
+  width: 40%;
+}
+.model_information_dasboard p {
+  padding-left: 4px;
+}
+.model_information_dasboard p p {
+  flex: 1;
+  text-align: left;
+}
+.model_information_dasboard p strong {
+  flex: 1;
+}
+#list_of_products {
+  margin-left: 1%;
+  width: 59%;
+}
+#list_of_products h5 {
+  background-color: #1c1;
+  color: blue;
+}
+#list_of_products p p {
+  flex: 4;
+}
+#list_of_products p strong {
+  flex: 1;
+}
+.reserved {
+  color: rgb(190, 109, 16);
+}
+.success {
+  color: rgb(100, 204, 4);
+}

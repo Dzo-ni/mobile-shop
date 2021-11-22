@@ -1,0 +1,146 @@
+#pagination {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.pagination_btn {
+  padding: 0.3rem 1rem;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#results_text {
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: center;
+  color: #aaa;
+  margin-bottom: 10 px;
+}
+#admin_panel {
+  padding: 20px;
+  min-height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+#admin_panel h2 {
+  color: #dee;
+  font-size: 2.2rem;
+}
+#admin_panel button {
+  border-radius: 10px;
+  padding: 0.4rem 1rem;
+  font-size: 1.1rem;
+  color: blue;
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  border: none;
+  outline: none;
+}
+#admin_panel button:hover {
+  background-color: blue;
+  color: white;
+  outline: none;
+}
+.disabled {
+  background: #bdbde7;
+}
+footer {
+  background-color: black;
+  min-height: 80px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin-bottom: 0;
+}
+.addtocard {
+  position: relative;
+  padding: 0;
+  background-color: rgb(140, 231, 66);
+  padding-right: 20px;
+  width: 120px;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.addto_icon {
+  display: inline-block;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  top: -12px;
+  background-color: rgb(4, 129, 42);
+}
+.addtocard:hover {
+  background-color: rgb(98, 156, 31);
+  color: rgb(221, 247, 238);
+}
+#cookie_policy {
+  position: absolute;
+  min-height: 100px;
+  background-color: rgba(24, 10, 10, 0.856);
+  color: white;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 20px 60px;
+  animation: animate 4s 2s forwards;
+}
+@keyframes animate {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+#cookie_policy .btn-close {
+  position: absolute;
+  top: 10px;
+  right: 2rem;
+}
+#cookie_policy.hide_cookie_information {
+  opacity: 0;
+  transition: opacity 1s;
+}
+#model_not_verified {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+#table_detail_product {
+  width: 80%;
+  margin: auto;
+}
+#table_detail_product,
+#table_detail_product tr {
+  border-collapse: collapse;
+}
+#table_detail_product td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #aaa2;
+}
+@media screen and (max-width: 600px) {
+  .pagination_btn {
+    padding: 0.1rem 0.5rem;
+    font-size: 1rem;
+  }
+}
